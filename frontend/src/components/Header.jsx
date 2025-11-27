@@ -27,7 +27,7 @@ const Header = () => {
   );
 
   return (
-    <header className="sticky top-0 z-50 glass border-b border-white/5">
+    <header className="sticky top-0 z-50 bg-[#0a0a0a]/80 backdrop-blur-xl border-b border-white/10">
       <nav className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         <Link
           to="/"
